@@ -1,0 +1,180 @@
+.flex-header{
+    display: flex;
+    width: 100%;
+    height: 130px;
+   background-color:rgb(225, 225, 225) ;
+    margin-bottom: 90px; 
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.logo-conteiner{
+    /* flex: 1; */
+}
+.logo-conteiner img {
+   
+    width: 90px;
+    height: 90px;
+  
+}
+
+.busqueda{
+    margin-right: 60px;
+    display: flex;
+gap: 10px;
+padding-bottom: 30px;
+    /* flex: 3; */
+}
+.busqueda img {
+
+    width: 25px;
+    height: 25px;
+
+}
+.titulo-container{
+    /* flex:2; */
+
+
+
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(118, 114, 114);
+ 
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+}
+
+.flex-main{
+    display: flex;
+    /* margin-bottom: 150px; */
+   flex-direction: column;
+ height: 800px;
+ 
+
+
+
+
+}
+.creapro{
+   padding-left: 300px;
+   /* padding-top: 150px; */
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+}
+.container-descripcion{
+    display: flex;
+    flex-direction: row;
+    gap: 390px;
+    padding-left: 300px;
+    padding-right: 400px;
+
+   align-items: start;
+}
+.descripcion{
+  display: flex;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 25px;
+    width:  50%;
+padding: 5px;
+  align-items: center;
+
+color: white;
+}
+.flex-registro{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 380px;
+    justify-content: space-around;
+    border-radius: 6px;
+    align-items: center;
+  padding-bottom: 40px;
+}
+.contenedor-registrarse{
+   
+
+    width: 100%;
+   
+   
+}
+.registrarse{
+    display: flex;
+    font-size: 20px;
+   justify-content: center;
+}
+.input-registro{
+    width: 60%;
+
+}
+.registro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-right: 200px;
+padding-bottom: 200px;
+border: 1px solid white;
+ width: 20%;
+
+
+}
+.cursos-container{
+    display: flex;
+    flex-direction: row;
+height: auto;
+justify-content: center;
+    height: 100px;
+    flex-direction: column;
+text-align: center;
+  padding-bottom: 15px;
+}
+.cursos{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+
+}
+.flex-productos{
+    display: flex;
+    height: 200px;
+     width: 100%;
+    justify-content:space-around;
+ 
+   
+}
+.contenedor-producto{
+    border: 1px solid black;
+    height: 240px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+ 
+ 
+   
+}
+.producto{
+    padding-top: 5px;
+    width: 200px;
+   
+}
+.dp{
+  
+}
+.flex-footer{
+display: flex;
+padding-bottom: 200px;
+border-top: 1px solid white;
+margin-top: 500px;
+justify-content: start;
+align-items: center;
+background-color:rgb(225, 225, 225) ;
+height: 10px;
+flex-direction: column;
+
+}
